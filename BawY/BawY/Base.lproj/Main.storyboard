@@ -33,6 +33,9 @@
                                 <state key="normal" title="BawY 🦮">
                                     <color key="titleColor" red="0.24288845708107898" green="0.29933110252769624" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didPressBawY:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yP2-pA-QUK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1o-ee-SF7">
                                 <rect key="frame" x="16" y="285" width="343" height="30"/>
@@ -58,6 +61,10 @@
                             <constraint firstItem="XdN-eT-a5q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tTI-Bd-myB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="X1o-ee-SF7" id="RPk-4p-bdY"/>
+                        <outlet property="tfAge" destination="XdN-eT-a5q" id="Vn8-tp-69s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
